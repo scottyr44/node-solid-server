@@ -7,7 +7,7 @@ RUN openssl req \
     -days 365 \
     -nodes \
     -x509 \
-    -subj "/C=US/ST=Denial/L=Springfield/O=Dis/CN=www.example.com" \
+    -subj " \
     -keyout privkey.pem \
     -out fullchain.pem
 CMD npm run solid start
