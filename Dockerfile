@@ -1,5 +1,5 @@
 FROM node:8.11.2-onbuild
-EXPOSE 8443
+EXPOSE 5443
 COPY config.json-default config.json
 RUN openssl req \
     -new \
